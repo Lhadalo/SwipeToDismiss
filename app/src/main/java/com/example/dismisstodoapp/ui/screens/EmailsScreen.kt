@@ -2,7 +2,6 @@ package com.example.dismisstodoapp.ui.screens
 
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -27,9 +26,8 @@ import com.example.dismisstodoapp.ui.swipetodismiss.DefaultConfig
 import com.example.dismisstodoapp.ui.swipetodismiss.DismissConfig
 import com.example.dismisstodoapp.ui.swipetodismiss.SwipeToDismissItem
 
-@OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun TodoListScreen() {
+fun EmailsScreen() {
     val viewModel = viewModel<EmailsScreenViewModel>()
     val listState = rememberLazyListState()
 
